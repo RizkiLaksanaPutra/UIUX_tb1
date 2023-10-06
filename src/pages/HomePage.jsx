@@ -24,8 +24,8 @@ const HomePage = () => {
         className="w-100 min-vh-100 d-flex align-items-center overflow-hidden"
         id="particles-js">
         <Container>
-          <Row className="header-box d-flex align-items-center pt-lg-5 ">
-            <Col lg="6" className="animate__animated animate__fadeInLeft ">
+          <Row className="header-box d-flex align-items-center pt-lg-5">
+            <Col lg="6" className="animate__animated animate__fadeInLeft">
               <h1 className="mb-4">
                 Temukan <br /> <span>Bakat Kreatifitas</span> Bersama Kami!
               </h1>
@@ -35,7 +35,7 @@ const HomePage = () => {
               </p>
               <button
                 className="btn btn-danger btn-lg me-3 mb-xs-0 mb-2 rounded"
-                onClick={() => navigate("/kelas")}>
+                onClick={() => navigate("#kelas")}>
                 Lihat kelas
               </button>
               <button className="btn btn-outline-danger btn-lg rounded-1">
@@ -55,7 +55,7 @@ const HomePage = () => {
           </div>
         </Container>
       </header>
-      <div className="kelas w-100 min-vh-100">
+      <div className="kelas w-100 min-vh-100" name="kelas">
         <Container data-aos="fade-right">
           <Row>
             <Col data-aos="animate__animated animate__fadeInLeft">

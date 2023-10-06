@@ -1,5 +1,4 @@
 import { Col, Row, Container } from "react-bootstrap";
-import FaqComponent from "../components/FaqComponent";
 
 export const SyaratKeten = () => {
   return (
