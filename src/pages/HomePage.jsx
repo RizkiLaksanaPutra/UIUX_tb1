@@ -37,9 +37,8 @@ const HomePage = () => {
               <h1 className="mb-4 animate__animated animate__fadeInLeft">
                 Temukan <br /> <span>Bakat Kreatifitas</span> Bersama Kami!
               </h1>
-              <p className="mb-4 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                reiciendis distinctio nemo maxime. Illo, numquam.
+              <p className="mb-4">
+                Bangun karirmu sebagai developer profesional dengan mulai belajar sesuai standar industri global
               </p>
               <button
                 className="btn btn-danger btn-lg me-3 mb-xs-0  rounded animate__animated animate__fadeInUp animate__delay-1s 1s"
@@ -75,8 +74,7 @@ const HomePage = () => {
                 Kelas terbaru
               </h1>
               <p className="text-center">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-                cupiditate facere voluptate vero voluptas corrupti?
+              Mulai perjalanan pembelajaran Anda hari ini dengan memilih salah satu dari kelas-kelas berkualitas kami
               </p>
             </Col>
           </Row>
