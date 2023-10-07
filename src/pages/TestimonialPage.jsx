@@ -3,8 +3,8 @@ import { testimonial } from "../data";
 
 export const TestimonialPage = () => {
   return (
-    <div className="testimonial-page">
-      <div className="testimonial min-vh-100 animate__animated animate__fadeInUp">
+    <div className="testimonial-page animate__animated animate__fadeInUp">
+      <div className="testimonial min-vh-100">
         <Container>
           <Row>
             <Col>

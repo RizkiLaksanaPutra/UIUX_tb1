@@ -4,6 +4,7 @@ import { kelasTerbaru, dataSwiper } from "../data";
 import { useNavigate } from "react-router-dom";
 import FaqComponent from "../components/FaqComponent";
 import Part from "../components/Part";
+import { useRef } from "react";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,27 +18,34 @@ import { Pagination } from "swiper/modules";
 
 const HomePage = () => {
   let navigate = useNavigate();
+  const kelas = useRef(null);
+
+  const handleScrollKelas = () => {
+    if (kelas.current) {
+      kelas.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <div className="homepage position-relative">
       <header
-        className="w-100 min-vh-100 d-flex align-items-center overflow-hidden"
+        className="w-100 min-vh-100 d-flex align-items-center"
         id="particles-js">
         <Container>
-          <Row className="header-box d-flex align-items-center pt-lg-5">
-            <Col lg="6" className="animate__animated animate__fadeInLeft">
-              <h1 className="mb-4">
+          <Row className="header-box d-flex align-items-center pt-lg-5 ">
+            <Col lg="6" className="">
+              <h1 className="mb-4 animate__animated animate__fadeInLeft">
                 Temukan <br /> <span>Bakat Kreatifitas</span> Bersama Kami!
               </h1>
               <p className="mb-4">
                 Bangun karirmu sebagai developer profesional dengan mulai belajar sesuai standar industri global
               </p>
               <button
-                className="btn btn-danger btn-lg me-3 mb-xs-0 mb-2 rounded"
-                onClick={() => navigate("#kelas")}>
+                className="btn btn-danger btn-lg me-3 mb-xs-0  rounded animate__animated animate__fadeInUp animate__delay-1s 1s"
+                onClick={handleScrollKelas}>
                 Lihat kelas
               </button>
-              <button className="btn btn-outline-danger btn-lg rounded-1">
+              <button className="btn btn-outline-danger btn-lg rounded-1 animate__animated animate__fadeInLeft animate__delay-1s 1s">
                 Lihat promo
               </button>
             </Col>
@@ -45,7 +53,7 @@ const HomePage = () => {
               <img
                 src={HeroImage}
                 alt=""
-                className="animate__animated animate__fadeInUp"
+                className="animate__animated animate__fadeInRight"
               />
             </Col>
           </Row>
@@ -54,10 +62,14 @@ const HomePage = () => {
           </div>
         </Container>
       </header>
-      <div className="kelas w-100 min-vh-100" name="kelas">
+      <div
+        className="kelas w-100 min-vh-100"
+        name="kelas"
+        ref={kelas}
+        id="kelas">
         <Container data-aos="fade-right">
           <Row>
-            <Col data-aos="animate__animated animate__fadeInLeft">
+            <Col className="animate__animated animate__fadeInLeft">
               <h1 className="text-center fw-bold animate__animated animate__fadeInLeft">
                 Kelas terbaru
               </h1>
@@ -92,7 +104,7 @@ const HomePage = () => {
           <Row>
             <Col className="text-center">
               <button
-                className="btn btn-success rounded-5 btn-lg"
+                className="btn all-kelas rounded-4 btn-lg shadow-sm"
                 onClick={() => navigate("/kelas")}>
                 Lihat Semua kelas
               </button>
@@ -101,11 +113,11 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
-      <div className="testimonial py-5">
+      <div className="testimonial">
         <Container data-aos="fade-left">
           <Row>
             <Col>
-              <h1 className="text-center fw-bold my-5">Testimonial</h1>
+              <h1 className="text-center fw-bold pb-4">Testimonial</h1>
             </Col>
           </Row>
           <Row>

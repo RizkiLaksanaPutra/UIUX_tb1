@@ -53,7 +53,7 @@ const Part = () => {
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.7,
             width: 1,
           },
           move: {
@@ -63,24 +63,24 @@ const Part = () => {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 5,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 700,
             },
-            value: 80,
+            value: 20,
           },
           opacity: {
-            value: 0.5,
+            value: 0.8,
           },
           shape: {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 5 },
+            value: { min: 1, max: 7 },
           },
         },
         detectRetina: true,
