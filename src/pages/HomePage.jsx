@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../assets/img/hero.png";
-import { kelasTerbaru, dataSwiper } from "../data";
+import { kelasTerbaru, dataSwiper, testimonial } from "../data";
 import { useNavigate } from "react-router-dom";
 import FaqComponent from "../components/FaqComponent";
 import Part from "../components/Part";
@@ -147,7 +147,7 @@ const HomePage = () => {
               }}
               modules={[Pagination]}
               className="mySwiper">
-              {dataSwiper.map((data) => {
+              {testimonial.map((data) => {
                 return (
                   <SwiperSlide key={data.id} className="shadow-sm">
                     <p className="desc">{data.desc}</p>

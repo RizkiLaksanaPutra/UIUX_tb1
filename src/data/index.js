@@ -11,6 +11,12 @@ import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
 import People1 from "../assets/img/testimonial/people-1.jpg";
 import People2 from "../assets/img/testimonial/people-2.jpg";
 import People3 from "../assets/img/testimonial/people-3.jpg";
+import People4 from "../assets/img/testimonial/people-4.jpg";
+import People5 from "../assets/img/testimonial/people-5.jpg";
+import People6 from "../assets/img/testimonial/people-6.jpg";
+import People7 from "../assets/img/testimonial/people-7.jpg";
+import People8 from "../assets/img/testimonial/people-8.jpg";
+import People9 from "../assets/img/testimonial/people-9.jpg";
 
 export const navLinks = [
   {
@@ -246,64 +252,64 @@ export const testimonial = [
     id: 1,
     desc: "Setelah menyelesaikan kelas UI/UX Website Design with Figma, saya merasa berkembang pesat dalam desain UI/UX. Materi yang terstruktur dengan baik dan instruktur yang responsif membantu saya meraih kemajuan signifikan. Saya merekomendasikan kelas ini untuk pemula yang ingin memulai karier desain web. Terima kasih atas pengalaman yang berharga!",
     image: People1,
-    name: "People 1",
+    name: "Cart ini",
     skill: "UI UX Designer",
   },
   {
     id: 2,
     desc: "Setelah menyelesaikan kelas Mastering Mobile Developer with Flutter, saya merasa memiliki pemahaman yang kuat tentang pengembangan aplikasi mobile menggunakan Flutter. Materi yang diajarkan sangat komprehensif dan praktis, dan instruktur sangat berpengalaman dalam mengajarkan konsep-konsep yang kompleks dengan cara yang mudah dimengerti.",
     image: People2,
-    name: "People 2",
+    name: "Jock owi",
     skill: "Flutter Developer",
   },
   {
     id: 3,
     desc: "Setelah menyelesaikan kelas tentang Web Developer menggunakan bootstrap saya merasa memiliki keterampilan yang solid dalam pengembangan web. Materi pelajarannya terstruktur dengan baik dan sangat relevan dengan kebutuhan industri. Instruktur memberikan bimbingan yang berharga dan membantu saya memahami konsep-konsep yang rumit.",
     image: People3,
-    name: "People 3",
+    name: "Preb Bowo",
     skill: "Web Developer",
   },
   {
     id: 4,
     desc: "Materi-materi dalam kelas Character illustrator ini sangat informatif dan membantu saya memahami berbagai teknik dan strategi untuk menciptakan karakter yang menarik. Instruktur kelas ini sangat berpengalaman dan selalu siap memberikan saran dan umpan balik yang berguna.",
-    image: People1,
-    name: "People 4",
+    image: People4,
+    name: "Zuck Arno",
     skill: "Professional Character Illustrator",
   },
   {
     id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
+    desc: "Instruktur kelas ini memberikan panduan yang luar biasa dan umpan balik yang membantu saya meningkatkan keterampilan desain saya secara signifikan. Sekarang, saya siap untuk menciptakan logo-logo yang memiliki daya tarik visual dan makna yang mendalam. Saya sangat merekomendasikan kelas ini kepada siapa saja yang ingin mendalami seni desain logo.",
+    image: People5,
+    name: "Sutedjo",
+    skill: "Icon Designer Expert",
   },
   {
     id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
+    desc: "Saya merasa siap untuk menciptakan model 3D yang kompleks dan memukau untuk berbagai proyek kreatif. Saya sangat merekomendasikan kelas ini kepada siapa saja yang tertarik dalam dunia pemodelan 3D. Terima kasih, kelas ini telah membuka pintu bagi saya untuk menjadi seorang 3D modeller yang lebih terampil!",
+    image: People6,
+    name: "Sutisna",
+    skill: "3D Modeller",
   },
   {
     id: 7,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 7",
-    skill: "UI UX Designer",
+    desc: "Setelah menjalani perjalanan melalui kelas Front End, saya merasa telah membangun dasar yang kokoh dalam dunia pengembangan front-end. Materi-materi yang diberikan dalam kelas ini sangat mendalam dan mampu membantu saya memahami kompleksitas tampilan depan situs web serta teknik-teknik terbaru dalam merancang antarmuka yang menarik.",
+    image: People7,
+    name: "Pi Ramli",
+    skill: "Front-end Specialist",
   },
   {
     id: 8,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 8",
-    skill: "Flutter Developer",
+    desc: "Instruktur kelas ini sangat berpengetahuan dan selalu siap memberikan bimbingan yang berharga dalam menangani aspek-aspek teknis yang rumit. Kini, saya merasa lebih percaya diri dalam membangun sistem back-end yang andal dan efisien. Saya sangat merekomendasikan kelas ini kepada siapa saja yang ingin menjadi seorang pengembang back-end yang mahir.",
+    image: People8,
+    name: "Ochoboy",
+    skill: "Professional Back-end",
   },
   {
     id: 9,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 9",
-    skill: "Web Developer",
+    desc: "Saya sangat merekomendasikan kelas ini kepada siapa saja yang ingin menjadi seorang data engineer yang handal. Terima kasih, kelas ini membantu saya menjadi lebih kompeten dalam mengelola data yang menjadi tulang punggung banyak aplikasi dan sistem.",
+    image: People9,
+    name: "Ben Over",
+    skill: "Data Engineer",
   },
 ];
 
