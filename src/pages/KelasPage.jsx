@@ -10,8 +10,7 @@ export const KelasPage = () => {
             <Col>
               <h1 className="fw-bold text-center">Semua kelas</h1>
               <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                sint aspernatur porro quos consequuntur in.
+              Mulai perjalanan pembelajaran Anda hari ini dengan memilih salah satu dari kelas-kelas berkualitas kami
               </p>
             </Col>
           </Row>

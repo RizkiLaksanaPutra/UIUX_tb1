@@ -10,8 +10,7 @@ export const TestimonialPage = () => {
             <Col>
               <h1 className="fw-bold text-center">Testimonial</h1>
               <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                sint aspernatur porro quos consequuntur in.
+                apa kata mereka yang sudah belajar bersama kelas kami?
               </p>
             </Col>
           </Row>

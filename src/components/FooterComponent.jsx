@@ -9,9 +9,8 @@ const FooterComponent = () => {
           <Col lg="5">
             <h3 className="fw-bold">Ngoding</h3>
             <p className="desc">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusantium, eaque animi magnam quo facere repudiandae dolorum
-              reiciendis voluptatibus deserunt obcaecati.
+            Sebagai platform edukasi teknologi, pengembangan skill para developer adalah fokus Ngoding. Untuk mencapainya, tersedia berbagai kelas online, 
+            program pelatihan, dan sertifikasi pemrograman dengan kualitas yang terjamin.
             </p>
             <div className="no mb-3 mt-4">
               <Link className="text-decoration-none">
