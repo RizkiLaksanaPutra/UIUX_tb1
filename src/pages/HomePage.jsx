@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../assets/img/hero.png";
-import { kelasTerbaru, dataSwiper, testimonial } from "../data";
+import { kelasTerbaru, testimonial } from "../data";
 import { useNavigate } from "react-router-dom";
 import FaqComponent from "../components/FaqComponent";
 import Part from "../components/Part";
@@ -38,7 +38,8 @@ const HomePage = () => {
                 Temukan <br /> <span>Bakat Kreatifitas</span> Bersama Kami!
               </h1>
               <p className="mb-4">
-                Bangun karirmu sebagai developer profesional dengan mulai belajar sesuai standar industri global
+                Bangun karirmu sebagai developer profesional dengan mulai
+                belajar sesuai standar industri global
               </p>
               <button
                 className="btn btn-danger btn-lg me-3 mb-xs-0  rounded animate__animated animate__fadeInUp animate__delay-1s 1s"
@@ -74,7 +75,8 @@ const HomePage = () => {
                 Kelas terbaru
               </h1>
               <p className="text-center">
-              Mulai perjalanan pembelajaran Anda hari ini dengan memilih salah satu dari kelas-kelas berkualitas kami
+                Mulai perjalanan pembelajaran Anda hari ini dengan memilih salah
+                satu dari kelas-kelas berkualitas kami
               </p>
             </Col>
           </Row>

@@ -2,12 +2,12 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 body {
   /* height: 2000px; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 :root {
@@ -195,6 +195,7 @@ header {
 .homepage .kelas .row:nth-child(2) img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 .homepage .kelas .row:nth-child(2) .star i {
@@ -281,6 +282,9 @@ header {
 .kelas-page .kelas .row:nth-child(2) img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
+  max-width: 100%; /* Maksimum lebar gambar */
+  max-height: 100%; /* Maksimum tinggi gambar */
 }
 
 .kelas-page .kelas .row:nth-child(2) .star i {
@@ -343,9 +347,18 @@ header {
 
 .testimonial-page .testimonial .people {
   display: flex;
-  align-items: center;
+  /* align-items: end; */
+  justify-content: start;
   width: 100%;
   column-gap: 15px;
+}
+
+.testimonial-page .testimonial .people > div {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 20px; */
 }
 
 .testimonial-page .testimonial .people h5,
@@ -391,15 +404,16 @@ header {
 }
 
 .homepage .testimonial .swiper-slide {
+  height: 500px !important ;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   background: #fff;
   padding: 20px;
 
   /* Center slide text vertically */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   cursor: grab;
 }
@@ -568,6 +582,11 @@ header {
   background-color: var(--primary-color);
 }
 
+.syarat-keten-page .syarat-keten .container {
+  width: 75%;
+  text-align: justify;
+}
+
 .syarat-keten-page .syarat-keten h2 {
   color: var(--color-text);
   padding-bottom: 12px;
@@ -576,6 +595,10 @@ header {
 .syarat-keten-page .syarat-keten p {
   color: var(--color-text);
   line-height: 1.5;
+}
+
+.syarat-keten-page .syarat-keten .row:nth-child(n + 3) p {
+  margin-left: 25px;
 }
 
 /* STYLE SYARAT KETENTUAN */

@@ -14,12 +14,12 @@ export const TestimonialPage = () => {
               </p>
             </Col>
           </Row>
-          <Row className="row-cols-3 justify-content-center">
+          <Row className="row-cols-2 justify-content-center">
             {testimonial.map((data) => {
               return (
                 <Col
                   key={data.id}
-                  className="shadow-sm mb-5 p-3 card col-3"
+                  className="shadow-sm mb-5 py-4 px-4 card col-4 justify-content-between"
                   data-aos="fade-up">
                   <p className="desc">{data.desc}</p>
                   <div className="people">
