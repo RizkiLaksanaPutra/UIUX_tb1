@@ -27,7 +27,7 @@ const NavbarComponent = () => {
       <Navbar expand="lg" className={changeColor ? "color-active" : ""}>
         <Container>
           <Navbar.Brand href="#home" className="fs-3 fw-bold">
-            Arenga.
+            Ngoding.
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
